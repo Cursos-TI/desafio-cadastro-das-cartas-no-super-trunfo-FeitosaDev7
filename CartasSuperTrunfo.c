@@ -7,26 +7,52 @@
 //Teste larissa
 
 int main() {
-    int idade, matricula;
-    float altura;
-    char nome[50];
 
-    printf("Digite sua idade: \n");
-    scanf("%d", &idade);
+    // Declarando as variaveis
 
-    printf("Digite sua altura: \n");
-    scanf("%f", &altura);
+    int carta1, população, NúmeroDePontosTurísticos;
+    float área, pib;
+    char A;
+    char codigo[20];
+    char NomeDaCidade[50];
+
+    // Entrada e saída de dados
+
+    printf("Carta 1: \n");
+
+    printf("Digite a letra que representa o estado: \n");
+    scanf("%c", A);
+
+    printf("Digite o código do estado: \n");
+    scanf("%c", &codigo);
 
     
-    printf("Digite seu nome: \n");
-    scanf("%s", &nome);
+    printf("Digite o nome da cidade: \n");
+    scanf("%s", &NomeDaCidade);
 
     
-    printf("Digite sua matricula: \n");
-    scanf("%d", &matricula);
+    printf("Digite a população da cidade: \n");
+    scanf("%d", &população);
 
-    printf("Nome do aluno: %s - Matricula: %d \n", nome, matricula);
-    printf("Idade: %d - Altura: %.2f", idade, altura);
+    printf("Digite a área da cidade: \n");
+    scanf("%f", &área);
+
+    printf("Digite o PIB da cidade: \n");
+    scanf("%f", &pib);
+
+    printf("Digite o número de pontos turísticos da cidade: \n");
+    scanf("%d", &NúmeroDePontosTurísticos);
+
+    // Exibição na tela do usuario
+
+    printf("Carta 1: \n");
+    printf("Estado: %c \n");
+    printf("Código: %c \n");
+    printf("Nome da Cidade: %s \n");
+    printf("População: %d \n");
+    printf("Área: %f \n");
+    printf("PIB: %f \n");
+    printf("Número de Pontos Turísticos: %d \n");
 
     return 0;
 }
@@ -41,5 +67,4 @@ int main() {
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
-    return 0;
-}
+
