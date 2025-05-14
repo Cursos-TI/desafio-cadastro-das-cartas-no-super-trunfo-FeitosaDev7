@@ -11,7 +11,7 @@ int main() {
     // Declarando as variaveis
 
     int carta1, população, NúmeroDePontosTurísticos;
-    float área, pib;
+    double área, pib;
     char A;
     char codigo[20];
     char NomeDaCidade[50];
@@ -43,7 +43,7 @@ int main() {
     printf("Digite o número de pontos turísticos da cidade: \n");
     scanf("%d", &NúmeroDePontosTurísticos);
 
-    // Exibição na tela do usuario
+    // Exibição dos dados na tela do usuario
 
     printf("Carta 1: \n");
     printf("Estado: %c \n");
